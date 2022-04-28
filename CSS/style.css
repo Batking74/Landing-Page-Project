@@ -5,15 +5,15 @@ body {
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
-    background-position-y: -120px;
+    background-position-y: 0px;
+    font-family:'Times New Roman', Times, serif;
 }
 .nav-container {
     position: absolute;
-    left: 69%;
+    right: 50px;
     top: 3%;
     display: grid;
-    grid-template-columns: repeat(5, 30px);
-    column-gap: 80px;
+    grid-template-columns: 100px 100px 100px 100px;
 }
 .nav-container a {
     text-decoration: none;
@@ -25,4 +25,13 @@ body {
     background-color: white;
     padding: 10% 50px 273px 50px;
     width: 300px;
+}
+@media screen and (max-width: 1279.20px) {
+    body {
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    .myLogo {
+        display: none;
+    }
 }
