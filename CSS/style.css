@@ -21,18 +21,8 @@ body {
     font-size: 25px;
 }
 
-.logo-container{
-    text-align: center;
-    background-color: white;
-    padding-bottom: 425px;
-    width: 450px;
-    
-}
-
 .myLogo {
+    background-color: white;
+    padding: 10% 50px 273px 50px;
     width: 300px;
-    position: relative;
-    top: 170px;
 }
-
-
