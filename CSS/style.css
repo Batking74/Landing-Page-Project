@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(/IMGS/bg.jpeg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-y: -120px;
+}
+.nav-container {
+    position: absolute;
+    left: 69%;
+    top: 3%;
+    display: grid;
+    grid-template-columns: repeat(5, 30px);
+    column-gap: 80px;
+}
+.nav-container a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+.logo-container{
+    text-align: center;
+    background-color: white;
+    padding-bottom: 425px;
+    width: 450px;
+    
+}
+
+.myLogo {
+    width: 300px;
+    position: relative;
+    top: 170px;
+}
+
+
