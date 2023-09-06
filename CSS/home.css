@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: url(/IMGS/bg.jpeg);
+    background-image: url(/IMG/bg.jpeg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -41,13 +41,11 @@ body {
 
 /* iPad Pro */
 @media screen and (max-width: 1024px) {
-
     .nav-container {
-        gap: 30%;
-        right: 48%;
-        top: 20%;
+        position: static;
+        gap: 80px;
     }
-
+    
     .nav-container a {
         color: #000000;
         font-size: xx-large;
@@ -59,7 +57,7 @@ body {
         height: 20vmax;
         flex-direction: column;
     }
-
+    
     .myLogo-bg img {
         width: 16vmax;
     }
@@ -68,9 +66,7 @@ body {
 /* iPad */
 @media screen and (max-width: 768px) {
     .nav-container {
-        gap: 16%;
-        right: 38%;
-        top: 20%;
+        gap: 15px;
     }
 
     .nav-container a {
@@ -92,10 +88,8 @@ body {
 /* Iphone X */
 @media screen and (max-width: 375px) {
     .nav-container {
-        right: 3vmax;
-        top: 15%;
         display: flex;
-        gap: 30px;
+        gap: 20px;
     }
 
     .nav-container a {
