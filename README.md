@@ -14,6 +14,6 @@ I made this project in 2021 when I was 15 or 16 during my sophomore in high scho
 - HTML
 - CSS
 
-Deployed Site: https://batking74.github.io/Landing_Page_Project_1/
+Deployed Site: https://batking74.github.io/Landing-Page-Project/
 
-GitHub Repo: https://github.com/Batking74/Landing_Page_Project_1
+GitHub Repo: https://github.com/Batking74/Landing-Page-Project/
