@@ -29,7 +29,7 @@ body {
     background-color: #ffffff;
     padding: 0 3vmax 0 3vmax;
     width: 300px;
-    height: 93.9rex;
+    height: 745px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -77,7 +77,6 @@ body {
     }
     
     .myLogo-bg {
-        /* width: 100%; */
         padding: 2vmax 0 3vmax 0;
         height: 20vmax;
         flex-direction: column;
@@ -109,5 +108,12 @@ body {
 
     .myLogo-bg img {
         width: 10vmax;
+    }
+}
+
+/* iPhone 11 */
+@media screen and (max-width: 271px) {
+    .nav-container a {
+        font-size: 11.5px;
     }
 }
