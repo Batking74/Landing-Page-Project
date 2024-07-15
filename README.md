@@ -8,7 +8,7 @@ Crafted during my sophomore year of high school in 2021, at the age of 15 or 16,
 - This Project also helped me further my Responsive Web Design Skills using Media Queries
 
 
-![Image of static landing page project 1](./Assets/IMG/Landing_Page_Project_1.png)
+![Image of static landing page project 1](./Assets/IMG/Landing_Page_Project_1.webp)
 
 ## Technologies Used
 - HTML
